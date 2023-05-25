@@ -87,3 +87,5 @@ C:\Users\DELL\Desktop\Angular.Net\DatingApp\api\obj\Debug\netcoreapp3.1\API.cspr
 C:\Users\DELL\Desktop\Angular.Net\DatingApp\api\obj\Debug\netcoreapp3.1\API.dll
 C:\Users\DELL\Desktop\Angular.Net\DatingApp\api\obj\Debug\netcoreapp3.1\API.pdb
 C:\Users\DELL\Desktop\Angular.Net\DatingApp\api\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+C:\Users\DELL\Desktop\Angular.Net\DatingApp\api\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\DELL\Desktop\Angular.Net\DatingApp\api\bin\Debug\netcoreapp3.1\package.json
