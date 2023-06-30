@@ -97,3 +97,4 @@ C:\Users\DELL\Desktop\Angular.Net\DatingApp\api\bin\Debug\netcoreapp3.1\Microsof
 C:\Users\DELL\Desktop\Angular.Net\DatingApp\api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\DELL\Desktop\Angular.Net\DatingApp\api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\DELL\Desktop\Angular.Net\DatingApp\api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\Angular.Net\DatingApp\api\bin\Debug\netcoreapp3.1\Data\UserSeedData.json
