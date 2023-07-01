@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FY4pDrOHY/jmljUAkJ/oFgY9IavQW4dKCYHwqLhgkIMScts6t2JA003jo0AUlssA5sz7cdylXdYNAm0N107Wxw==",
+  "dgSpecHash": "w0QtaOLLbC4zqVwHTUvvhDjkRq/ZXibzHeb7hW6gs75wM8AX8ZjD3xr9uW9BJOirWDS2w8OOz0weQNHAczqM8w==",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\Desktop\\Angular.Net\\DatingApp\\api\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.32\\microsoft.aspnetcore.authentication.jwtbearer.3.1.32.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -61,7 +63,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
