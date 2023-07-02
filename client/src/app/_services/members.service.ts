@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 
 const httpOption = {
   headers: new HttpHeaders({
-    Authorization: 'Bearer ' + JSON.parse(localStorage.getItem('user')!).token,
+    Authorization: 'Bearer ' + JSON.parse(localStorage.getItem('user')!)?.token,
   }),
 };
 @Injectable({
@@ -18,9 +18,15 @@ export class MembersService {
   constructor(private http: HttpClient) {}
 
   getMembers() {
+    console.log(httpOption);
     return this.http.get<Member[]>(this.baseUrl + 'users', httpOption);
   }
-  getMember(username :string) {
-    return this.http.get<Member>(this.baseUrl + 'users/' + username , httpOption);
+  getMember(username: string) {
+    console.log(httpOption);
+
+    return this.http.get<Member>(
+      this.baseUrl + 'users/' + username,
+      httpOption
+    );
   }
 }
