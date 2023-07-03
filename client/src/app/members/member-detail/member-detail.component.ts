@@ -16,7 +16,7 @@ export class MemberDetailComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.loadMember()
+    this.loadMember();
   }
 
   loadMember() {

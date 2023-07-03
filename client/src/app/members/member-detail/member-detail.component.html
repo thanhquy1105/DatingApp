@@ -46,7 +46,17 @@
         <p>{{ member.interests }}</p>
       </tab>
       <tab heading="Photos">
-        <h4>Photos will go here</h4>
+        <carousel>
+          <ng-container *ngFor="let photo of member.photos">
+            <slide>
+              <img
+                src="{{ photo.url }}"
+                alt="{{ member.knownAs }}"
+                style="display: block; width: 150px"
+              />
+            </slide>
+          </ng-container>
+        </carousel>
       </tab>
       <tab heading="Messages">
         <h4>Messages will go here</h4>
