@@ -9,6 +9,7 @@ import {
   ValidatorFn,
   Validators,
 } from '@angular/forms';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -19,13 +20,15 @@ export class RegisterComponent implements OnInit {
     throw new Error('Method not implemented.');
   }
   @Output() cancelRegister = new EventEmitter();
-  model: any = {};
   registerForm!: FormGroup;
   maxDate!: Date;
+  validationErrors: string[] = [];
+
   constructor(
     private accountService: AccountService,
     private toastr: ToastrService,
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -70,15 +73,13 @@ export class RegisterComponent implements OnInit {
   // };
 
   register() {
-    console.log(this.registerForm?.value);
-    this.accountService.register(this.model).subscribe({
+    this.accountService.register(this.registerForm.value).subscribe({
       next: (res) => {
-        console.log(res);
-        this.cancel();
+        this.router.navigateByUrl('/members');
       },
       error: (error) => {
         console.log(error);
-        this.toastr.error(error.error);
+        this.validationErrors = error;
       },
     });
   }

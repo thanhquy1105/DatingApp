@@ -1,9 +1,9 @@
-<div class="form-control">
+<div class="form-group">
   <input
     type="text"
     [class.is-invalid]="ngControl.touched && ngControl.invalid"
     class="form-control"
-    [formControl]="$any(ngControl).control"
+    [formControl]="$any(ngControl.control)"
     placeholder="{{ label }}"
     bsDatepicker
     [bsConfig]="bsConfig"
@@ -11,7 +11,7 @@
   />
   <div
     *ngIf="$any(ngControl.control?.errors)?.required"
-    class="invalied-feedback"
+    class="invalid-feedback"
   >
     {{ label }} is required
   </div>
