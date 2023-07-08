@@ -46,7 +46,7 @@
         <p>{{ member.interests }}</p>
       </tab>
       <tab heading="Photos">
-        <carousel>
+        <!-- <carousel>
           <ng-container *ngFor="let photo of member.photos">
             <slide>
               <img
@@ -56,7 +56,12 @@
               />
             </slide>
           </ng-container>
-        </carousel>
+        </carousel> -->
+        <ngx-gallery
+          [options]="galleryOptions"
+          [images]="galleryImages"
+          style="display: inline-block; margin-bottom: 20px"
+        ></ngx-gallery>
       </tab>
       <tab heading="Messages">
         <h4>Messages will go here</h4>
