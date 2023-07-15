@@ -9,3 +9,8 @@
 7. Updating resources
 8. Adding photo upload functionality
 9. Reactive forms
+10. Paging
+11. Sorting functionality
+12. Filtering functionality
+13. Like features
+14. messaging features
