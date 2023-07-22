@@ -14,3 +14,12 @@
 12. Filtering functionality
 13. Like features
 14. messaging features
+15. Identity and role management
+16. SignalR
+17. Unit of work
+
+Docker
+run postgres
+	docker run -d -e POSTGRES_USER=user -e POSTGRES_PASSWORD=password --name my-postgres -p 5432:5432 postgres
+run pgadmin
+	docker run -p 80:80 -e PGADMIN_DEFAULT_EMAIL=email -e PGADMIN_DEFAULT_PASSWORD=password -d dpage/pgadmin4
